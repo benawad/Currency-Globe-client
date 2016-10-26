@@ -170,7 +170,7 @@
       
       
       xhr = new XMLHttpRequest();
-      xhr.open('GET', '/currency.json', true);
+      xhr.open('GET', 'https://globe-server.herokuapp.com/data.json', true);
       xhr.onreadystatechange = function(e) {
         if (xhr.readyState === 4) {
           if (xhr.status === 200) {
