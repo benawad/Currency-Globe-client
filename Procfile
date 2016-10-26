@@ -1,1 +1,1 @@
-web: globe
+web: go run main.go
