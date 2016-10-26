@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
   <head>
-    <title>WebGL Globe</title>
+    <title>World Currency</title>
     <meta charset="utf-8">
     <style type="text/css">
       html {
@@ -126,7 +126,7 @@
   </div>
 
   <div id="title">
-    World Population
+    World Currency
   </div>
 
   <script type="text/javascript" src="/third-party/Detector.js"></script>
@@ -170,7 +170,7 @@
       
       
       xhr = new XMLHttpRequest();
-      xhr.open('GET', '/population909500.json', true);
+      xhr.open('GET', '/currency.json', true);
       xhr.onreadystatechange = function(e) {
         if (xhr.readyState === 4) {
           if (xhr.status === 200) {
